@@ -78,7 +78,7 @@ optional=true
 
 [tool.poetry.group.packaging.dependencies]
 pyinstaller = "^5.7"
-pyinstaller-versionfile = "^2.0.0"
+pyinstaller-versionfile = ">=2,<4"
 tomli = ">=1.2,<3.0"
 
 [tool.poetry.extras]
